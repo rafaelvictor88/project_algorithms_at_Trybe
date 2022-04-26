@@ -1,6 +1,3 @@
-from multiprocessing.sharedctypes import Value
-
-
 def merge_sort(array):
     # caso base: se já atingiu a menor porção (1)
     if len(array) <= 1:
